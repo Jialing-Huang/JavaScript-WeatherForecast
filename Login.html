@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css\styles.css" />
+    <script src="js\login.js"></script>
+    <script src="js\jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Login</h2>
+    </header>
+    <form>
+        <!--Set the email,password input element-->
+        <div class="inputLabel" id="mailLabel">Email Address</div>
+        <input type="email" name="emailAddress" id="email" value="hydraulicer2006@gmail.com">
+        <br>
+        <div class="inputLabel">Password</div>
+        <input type="password" name="password" id="password" value="GoQuebec2006">
+        <br><br>
+
+        <!--Set the login button element-->
+        <button type="button" onclick="sendXHRRequest()" id="loginBtn">Login →</button>
+        <br>
+
+        <!--Set the forecast info showing zone as <ul> element-->
+        <ul id="info"></ul>
+
+        <!--Set the constant info showing zone as <div> element-->
+        <div class="constInfo">Today's message: <span id="message">"in init"</span></div>
+        <div class="constInfo">Today's date: <span id="date"></span></div>
+        <div class="constInfo">Time now: <span id="clock"></span></div>
+
+        <!--Set the warning info showing zone as <div> element-->
+        <div id="warning"></div>
+    </form>
+</body>
+</html>

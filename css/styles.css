@@ -1,0 +1,55 @@
+
+h2 {
+    width:70px;
+    position: relative;
+    color: cadetblue;
+    background-color: white;
+    left:170px;
+    top:45px;
+    z-index: 4;
+}
+form {
+    position: absolute;
+    width: 250px;
+    padding:0;
+    margin-top:10px;
+    margin-left: 10em;
+    border-style: groove;
+}
+
+/*Set the error info in red*/ 
+#warning{
+    padding-left:5px; 
+    color: red;
+}
+
+/*Set the status info in green*/
+#message{
+    color: limegreen;
+}
+.constInfo{
+    padding-left:5px; 
+}
+.inputLabel{
+    padding-left:5px; 
+}
+
+#email{
+    margin-left:5px;
+    background-color: lightgrey; 
+}
+#password{
+    margin-left:5px;
+    background-color: lightgrey;
+}
+#mailLabel{
+    padding-top:15px;
+}
+#loginBtn{
+    margin-left:15px;
+}
+#info{
+    position: relative;
+    width:250px;
+    left:-35px;
+}
